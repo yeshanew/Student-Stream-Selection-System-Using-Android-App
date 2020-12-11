@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.course_managnment_system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.course_managnment_system.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Add_user"
+            android:label="@string/title_activity_add_user" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Add_course"
+            android:label="@string/title_activity_add_course" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Add_department"
+            android:label="@string/title_activity_add_department" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Add_college"
+            android:label="@string/title_activity_add_college" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Assign_course"
+            android:label="@string/title_activity_assign_course" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.JSONParser"
+            android:label="@string/title_activity_jsonparser" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Display_all"
+            android:label="@string/title_activity_display_all" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Display_user"
+            android:label="@string/title_activity_display_user" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Update_user"
+            android:label="@string/title_activity_update_user" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Logout"
+            android:label="@string/title_activity_logout" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.CustomOnItemSelectedListener"
+            android:label="@string/title_activity_custom_on_item_selected_listener" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Display_studentinfo"
+            android:label="@string/title_activity_display_studentinfo" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Stream_detail"
+            android:label="@string/title_activity_stream_detail" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Display_Stream_detail"
+            android:label="@string/title_activity_display__stream_detail" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Assign_stream"
+            android:label="@string/title_activity_assign_stream" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Student_login"
+            android:label="@string/title_activity_student_login" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Admin_page"
+            android:label="@string/title_activity_admin_page" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Student_page"
+            android:label="@string/title_activity_student_page" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Adminlogin_page"
+            android:label="@string/title_activity_adminlogin_page" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Studentlogin_page"
+            android:label="@string/title_activity_studentlogin_page" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.View_stream"
+            android:label="@string/title_activity_view_stream" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Student_account"
+            android:label="@string/title_activity_student_account" >
+        </activity>
+        <activity
+            android:name="com.example.course_managnment_system.Manage_studaccount"
+            android:label="@string/title_activity_manage_studaccount" >
+        </activity>
+    </application>
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
